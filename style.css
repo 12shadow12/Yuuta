@@ -1,0 +1,8 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Jua&family=Press+Start+2P&display=swap");
+
+:root {
+    font-family:"Jua";
+    line-height: 1.5;
+    color-scheme: light dark;
+}

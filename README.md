@@ -22,7 +22,7 @@
     </samp>
   </div>
   <br>
-  <img width="170px" src="https://komarev.com/ghpvc/?username=yuuta-X7&style=for-the-badge&logo=Streamlit&color=ffdcf7&logo=Bookmeter"/>
+  <img width="170px" src="https://komarev.com/ghpvc/?username=yuuta-X7&style=for-the-badge&logo=Streamlit&color=FFD580&logo=Bookmeter"/>
   <br>
   <br>
   <br>

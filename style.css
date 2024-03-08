@@ -5,7 +5,7 @@
     font-family: "Jua";
     line-height: 1.5;
     color-scheme: light dark;
-    color: #ffdcf7;
+    color: #f5f5dc;
     background-color: #4a3f44;
     font-synthesis: inherit;
     text-rendering:optimizedLegibility;
@@ -47,4 +47,52 @@ hr {
 
 .button-container {
     display: flex;
+}
+
+.button {
+	border-radius: 100px; /* Don't ask why this is 100px qwq*/
+	border: 1px solid transparent;
+	padding: .6em 1.2em;
+	font-size: 1.5em;
+	font-family: inherit;
+	color: #f5f5dc;
+	background-color: #383034;
+	transition: border-color .25s;
+	outline: none!important;
+	margin-right: 10px;
+}
+
+button:hover {
+	border-color: #ffdcf7;
+}
+
+button:active {
+	color: #383034;
+	background-color: #ffdcf7;
+	transition: none;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position:absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }

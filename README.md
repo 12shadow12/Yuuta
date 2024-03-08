@@ -15,7 +15,7 @@
       <br>
       <br>
       site:
-      <a href="https://yuuta.com">⟢</a><br>
+      <a href="https://yuuta.vercel.app/">⟢</a><br>
       discord:
       <a href="https://discord.com/users/849854875335393340">yuuta</a><br>
       art by <a href="https://twitter.com/flat_fish_">@flat_fish_</a>
